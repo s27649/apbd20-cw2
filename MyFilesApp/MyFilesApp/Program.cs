@@ -1,13 +1,13 @@
-﻿static double GetAverage(int[] num)
+﻿static double GetAverage(int[] numbers)
 {
-    int suma = 0;
-    for (int i = 0; i < num.Length; i++)
+    int sum = 0;
+    for (int i = 0; i < numbers.Length; i++)
     {
-        suma += num[i];
+        sum += numbers[i];
         
     }
 
-    return (double)suma / num.Length;
+    return (double)sum / numbers.Length;
 }
 
 int[] numbers={1,2,3,4};
